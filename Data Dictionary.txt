@@ -1,0 +1,14 @@
+DATA DICTIONARY DESCRIPTION
+(Medical Vocabulary for IPBA project)
+
+1. HLA: Human leukocyte antigen, the major human histocompatibility system. HLA typing is done before transplantation to determine the degree of tissue compatibility between donor and recipient.
+
+2. cPRA: After your antibodies are measured, your health care provider can use them to calculate your PRA. The cPRA estimates the percentage of donors with whom a particular recipient would be incompatible. In other words, it would give you an idea of the percentage of offered kidneys your body would likely reject at the time of transplantation. The cPRA is used in the allocation of kidney and pancreas transplants. Patients with high cPRA levels get priority for transplantation because it is harder to find compatible donor organs in those situations. The good news is that most patients awaiting kidney transplantation have low levels of anti-HLA antibodies, but it is estimated that 9,000 patients on the waitlist have cPRA > 95%.
+
+3. Chagas: Chagas disease is caused by the parasite Trypanosoma cruzi, which is transmitted to animals and people by insect vectors and is found only in the Americas (mainly in rural areas of Latin America, where poverty is widespread). Chagas disease (T. cruzi infection) is also referred to as American trypanosomiasis. (specific to Brazil)
+
+4. anti-HBc:  anti-HBc or HBcAb (Hepatitis B core antibody) - A "positive" or "reactive" anti-HBc (or HBcAb) test result indicates a past or current hepatitis B infection. So Yes indicated past/current infection. And No indicates no infection. A "positive" or "reactive" anti-HBs (or HBsAb) test result indicates that a person is protected against the hepatitis B virus.
+
+5. anti-HCV: A "positive" or "reactive" test result indicates a past or current hepatitis C infection.
+
+6. AgHBs: HBsAg (Hepatitis B surface antigen) - A "positive" or "reactive" HBsAg test result means that the person is infected with hepatitis B. This test can detect the actual presence of the hepatitis B virus (called the “surface antigen”) in your blood. If a person tests “positive,” then further testing is needed to determine if this is a new “acute” infection or a “chronic” hepatitis B infection. A positive HBsAg test result means that you are CURRENTLY infected and can spread the hepatitis B virus to others through your blood.
