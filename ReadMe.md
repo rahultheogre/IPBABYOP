@@ -24,6 +24,5 @@ We will make it our base and try to improve it with an infusion of TDCR (Time de
 **DATA AVAILABILITY**: We will use the same dataset as used in our ‘base-study’ done by Andrade and Team. It is in a public repository: https://www.kaggle.com/gustavomodelli/waitlist-kidney-brazil
 
 **PEOPLE INVOLVED**
-- Amruth B R, Aravind K S, Ashwin Maiya, Krishna Priyadarshini, Nittile Gupta, Rahul S & Sushree Sangita Patra. 
-- ADVISOR: Dr…. (senior nephrologist) 
-- MENTOR: Suraaj
+- Rahul S & Amruth B R 
+
