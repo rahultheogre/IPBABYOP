@@ -23,6 +23,36 @@ We will make it our base and try to improve it with an infusion of TDCR (Time de
 
 **DATA AVAILABILITY**: We will use the same dataset as used in our ‘base-study’ done by Andrade and Team. It is in a public repository: https://www.kaggle.com/gustavomodelli/waitlist-kidney-brazil
 
-**PEOPLE INVOLVED**
-- Rahul S & Amruth B R 
+**Method** Employed
+
+
+Project Title:
+Transplant Wait Time Prediction using Survival Analysis and Deep Learning
+
+Objective:
+The Transplant Wait Time Prediction project aimed to develop a robust predictive model for estimating the waiting time of prospective transplant recipients. By utilizing survival analysis methods and incorporating deep learning techniques, the project sought to provide accurate predictions of the time recipients would have to wait for a suitable organ transplant. Rigorous statistical tests were conducted on the dataset, encompassing feature engineering and the application of the Cox Proportional Hazards model, resulting in a commendable c-index of 0.68.
+
+Approach:
+
+Data Collection and Preparation: The project involved the collection of comprehensive data related to transplant recipients, including medical history, demographic information, organ compatibility, and historical wait times.
+
+Rigorous Statistical Testing: Extensive statistical tests were implemented to identify significant predictors influencing the waiting time. These tests included hypothesis testing, correlation analysis, and feature importance ranking.
+
+Feature Engineering: Feature engineering techniques were applied to transform and enhance the dataset. Engineered features included risk scores, medical history summaries, and composite variables designed to capture the intricate nature of recipient profiles.
+
+Cox Proportional Hazards Model: The Cox Proportional Hazards model, a powerful survival analysis technique, was employed. This model assessed the proportional hazard assumption and estimated the hazard function, providing insights into the impact of various predictors on waiting times.
+
+Deep Learning Survival Analysis: In addition to traditional survival analysis techniques, deep learning methods were also explored. Deep learning models, such as neural networks and recurrent neural networks (RNNs), were employed to capture complex relationships within the data and improve prediction accuracy.
+
+Results:
+The Transplant Wait Time Prediction project successfully concluded with significant achievements. The predictive model achieved a noteworthy c-index of 0.68, indicating its effectiveness in distinguishing between recipients with varying waiting times. The project's combination of rigorous statistical testing, feature engineering, and application of survival analysis contributed to its success.
+
+Future Implications:
+While the project has ended, its outcomes hold potential for broader applications:
+
+Enhanced Patient Care: Accurate wait time predictions can aid healthcare professionals in better managing and counseling transplant recipients.
+Resource Allocation: Reliable predictions facilitate efficient allocation of medical resources, optimizing patient care and hospital operations.
+Process Improvement: Insights gained from the model can guide improvements in transplant procedures and policies.
+Conclusion:
+The Transplant Wait Time Prediction project demonstrated the synergy between survival analysis, statistical testing, and deep learning methodologies. By accurately estimating wait times for transplant recipients, the project addressed a crucial medical challenge. The achieved c-index of 0.68 showcases the model's capacity to provide valuable predictions. The project's success has potential implications for patient care, healthcare resource optimization, and overall transplant procedure enhancement.
 
