@@ -19,8 +19,44 @@ The project employed an array of statistical methodologies to identify significa
 ### Feature Engineering
 Building upon the initial feature engineering techniques, the project employed sophisticated methods to transform and enhance the dataset. Beyond risk scores and composite variables, advanced techniques such as recursive feature elimination and feature importance ranking were employed to ascertain the most influential predictors.
 
-### Survival Analysis Algorithms
-The project's survival analysis suite included an extensive set of algorithms. In addition to the Cox Proportional Hazards model, the Kaplan-Meier estimator, and time-varying Cox regression, Random Survival Forests were used for their ability to handle non-linear relationships. Additionally, the project incorporated cutting-edge deep learning survival models, namely DeepSurv and DeepHit, to capture complex temporal patterns within the data.
+### Algorithms used
+
+Survival analysis is a statistical approach used to analyze the time until an event of interest occurs. It's commonly applied in medical research to study time-to-event outcomes such as death, recovery, or transplant. The project employed several survival analysis algorithms:
+
+#### Cox Proportional Hazards Model
+
+The Cox Proportional Hazards model estimates the hazard function, representing the instantaneous risk of an event happening at a particular time. It's a fundamental technique in survival analysis and helps identify how various factors impact survival time.
+
+**Learn more:** [Cox Proportional Hazards Model](https://en.wikipedia.org/wiki/Proportional_hazards_model)
+
+#### Kaplan-Meier Estimator
+
+The Kaplan-Meier estimator is a non-parametric method to estimate the survival function from incomplete data. It's used to plot the survival curve, offering insights into the probability of survival over time.
+
+**Learn more:** [Kaplan-Meier Estimator](https://en.wikipedia.org/wiki/Kaplan%E2%80%93Meier_estimator)
+
+#### Time-Varying Cox Regression
+
+The Time-Varying Cox Regression model extends the Cox model to allow covariate effects to change over time. It's essential when the proportional hazards assumption is violated, capturing dynamic changes in covariate effects.
+
+**Learn more:** [Time-Varying Covariates in the Cox Model](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4330079/)
+
+#### Random Survival Forests
+
+Random Survival Forests extend traditional random forests to survival analysis. They handle non-linear relationships and interactions between variables. By combining predictions from multiple decision trees, they generate survival estimates.
+
+**Learn more:** [Random Survival Forests](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3042885/)
+
+#### DeepSurv and DeepHit
+
+DeepSurv and DeepHit are cutting-edge deep learning models for survival analysis. DeepSurv uses neural networks to directly estimate the hazard function. DeepHit combines a deep neural network with a mixture model to capture population-level and individual-level dynamics of survival data.
+
+**Learn more:** [DeepSurv: Personalized Treatment Recommender System Using A Cox Proportional Hazards Deep Neural Network](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6237466/)
+
+**Learn more:** [DeepHit: A Deep Learning Approach to Survival Analysis with Competing Risks](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5575877/)
+
+These diverse algorithms enabled the project to handle various complexities in predicting kidney transplant waiting times. The combination of these techniques provided a robust and accurate prediction model that could account for different scenarios and data patterns.
+
 
 ### Model Evaluation Metrics
 The project evaluated model performance using various metrics, including the widely-used c-index, which measures concordance between predicted and actual survival times. This metric gauges the model's ability to rank recipients based on their actual waiting times. Other complementary metrics like log-rank tests and integrated Brier scores were used to provide a comprehensive assessment.
